@@ -51,6 +51,11 @@
       margin-bottom: 6px;
     }
 
+    .article-title {
+      margin-bottom: 0px;
+      word-break: keep-all;
+    }
+
     .article-link {
         color: #222;
         text-decoration: none;
@@ -62,14 +67,41 @@
     }
 
     .author {
-        color: #666;
+        color: #666666;
         font-size: 16px;
-        margin-left: 16px;
+        margin-left: 0px;
+        margin-bottom: 4px;
+    }
+
+    .topbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    }
+
+    .topbar-logo {
+    width: 24px;
+    height: auto;
     }
   </style>
 </head>
 
 <body>
+  <div class="topbar">
+    <img class="topbar-logo"
+         src="sejong-logo.png"
+         alt="Sejong University logo">
+    <div class="topbar-text">
+      National Strategy Research Institute
+    </div>
+  </div>
 
   <h1>Publications</h1>
 
@@ -93,20 +125,20 @@
       </div>
       <ul class="articles">
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-4_202603_A1.pdf" target="_blank">
                 핵심광물 수입 공급망의 안정성: 국제물류 구조와 제도적 과제
             </a>
-            <span class="author">
-                정수현
-            </span>
+          </div>
+          <div class="author"> 정수현 </div>
         </li>
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-4_202603_A2.pdf" target="_blank">
                 기후위기 대응과 에너지 전환을 위한 법제도적 과제
             </a>
-            <span class="author">
-                임현종
-            </span>
+          </div>
+            <div class="author"> 임현종 </div>
         </li>
       </ul>
 
@@ -119,20 +151,24 @@
       </div>
       <ul class="articles">
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-3_202601_A1.pdf" target="_blank">
                 ESG의 법적 함의에 기반한 실효적 정책 방향 -유럽연합의 최근 ESG 정책을 참고하여-
             </a>
-            <span class="author">
+          </div>
+            <div class="author">
                 김용훈
-            </span>
+            </div>
         </li>
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-3_202601_A2.pdf" target="_blank">
                 Suggestions for Building a Cooperation Framework between Korea and Central Asia
             </a>
-            <span class="author">
+          </div>
+            <div class="author">
                 Park, Junghoo
-            </span>
+            </div>
         </li>
       </ul>
 
@@ -145,20 +181,24 @@
       </div>
       <ul class="articles">
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-2_202511_A1.pdf" target="_blank">
                 지식재산권과 경제성장의 관계
             </a>
-            <span class="author">
+          </div>
+            <div class="author">
                 장병득
-            </span>
+            </div>
         </li>
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-2_202511_A2.pdf" target="_blank">
                 초고령사회 대응을 위한 디지털 지급결제 시스템의 안전성과 포용성 제고 -지속가능 발전과 디지털 기본권 보장을 위한 협력 거버넌스 구축을 중심으로-
             </a>
-            <span class="author">
+          </div>
+            <div class="author">
                 황정훈
-            </span>
+            </div>
         </li>
       </ul>
 
@@ -171,20 +211,24 @@
       </div>
       <ul class="articles">
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-1_202509_A1.pdf" target="_blank">
                 경제안보에 대한 다자주의적 접근
             </a>
-            <span class="author">
+          </div>
+            <div class="author">
                 한창완
-            </span>
+            </div>
         </li>
         <li>
+          <div class="article-title">
             <a class="article-link" href="pdfs/NSR8-1_202509_A2.pdf" target="_blank">
                 국내정치, 혹은 국가 간 전략경쟁?: 보호무역의 정치경제학 연구의 초점과 향방
             </a>
-            <span class="author">
+          </div>
+            <div class="author">
                 김남석
-            </span>
+            </div>
         </li>
       </ul>      
     </details>
