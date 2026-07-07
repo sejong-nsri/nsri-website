@@ -12,6 +12,7 @@
 # Do not upload python cache
 __pycache__/
 *.pyc
+*.py
 
-# Do not upload these files
+# Also,
 *.ini
