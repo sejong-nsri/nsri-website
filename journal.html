@@ -71,6 +71,26 @@
     width: 24px;
     height: auto;
     }
+
+    .journal-info {
+    margin-top: 35px;
+    padding: 18px 22px;
+    background-color: #f7f7f7;
+    border-left: 4px solid #003366;
+    }
+
+    .journal-info p {
+      margin: 0;
+    }
+
+    .info-label {
+      font-weight: bold;
+      margin-right: 12px;
+    }
+
+    .info-label::after {
+      content: ":";
+    }
   </style>
 </head>
 
@@ -108,6 +128,21 @@
     </p>
   </section>
 
+  <section class="journal-info">
+    <p>
+        <span class="info-label">발행 및 편집인</span>
+        <span class="info-value">허영수 (국가전략연구소장, 세종대 경제학과)</span>
+    </p>
+  </section>
+
+  <section class="journal-info">
+    <p>
+        <span class="info-label">논문 투고 및 문의</span>
+        <span class="info-value"><a href="mailto:sejong.nsri@gmail.com">sejong.nsri@gmail.com</a></span>
+    </p>
+  </section>
+
+  <!--
   <section>
     <h2>논문 투고 및 문의</h2>
     
@@ -115,6 +150,7 @@
       <a href="mailto:sejong.nsri@gmail.com">sejong.nsri@gmail.com</a>
     </p>
   </section>
+  -->
 
 </body>
 </html>
